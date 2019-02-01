@@ -1,0 +1,279 @@
+/* GENERALITE */
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+h1
+{
+	font-family: 'Crete Round' , serif;
+	font-size: 40px;
+	color: #173984; 
+	font-weight: 400px;
+
+}
+.wrapper
+{
+	width: 930px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+h4
+{
+	font-size: 24px;
+	color: #444;
+}
+p
+{
+	line-height: 20px;
+}
+
+/* HEADER */
+header
+{
+	height: 95px;
+	border-radius: 4px;
+	box-shadow: 0px 4px 9px rgba(0,0,0,0.06);
+
+}
+header h1
+{
+	margin-top: 25px;
+	text-align: center;
+}
+ul
+{
+	list-style: none;
+	padding-left: 250px;
+}	
+nav ul li
+{
+	display: inline-block;
+	color: #1A09EC
+}
+nav ul li a
+{
+	text-transform: uppercase;
+}
+a
+{
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 20px;
+}
+h2
+{
+	color: #03AFA2;
+	font-size: 50px;
+}
+
+/* MAIN-IMAGE */
+
+#main-image
+{
+	height: 500px;
+	background-image: url('Famille.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#main-image h2
+{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 150px 0 40px 0;
+	margin-bottom: 20px;
+	color: #EB5EFE;
+}
+textarea
+{
+	font-family: arial, serif;
+}
+.button-1
+{
+	width: 120px;
+	height: 50px;
+	display: block;
+	background: #EBA40B;
+	color: black;
+	font-size: 20px;
+	margin: 0px auto;
+	margin-right: 5px;
+	margin-top: -70px;
+	margin-right: 200px; 
+	line-height: 45px;
+	text-align: center;
+	border-radius: 3px;
+
+}
+.button-1:hover
+{
+	background: #FF7A00;
+}
+
+/* STEPS */
+
+h3
+{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 30px;
+	color: #03AFA2
+}
+#steps ul
+{
+
+}
+#steps ul li
+{
+	width: 300px;
+	padding-top: 60px;
+	text-align: center;
+	padding-right: 90px;
+	margin-left: 40px;
+
+}
+#steps h4
+{
+	text-transform: uppercase;
+	margin-bottom: 20px;	 
+}
+
+/* PARTENAIRES */
+
+#partenaires
+{
+	height: 500px;
+	background-color: #173984;
+}
+
+#partenaires h3
+{
+	margin-top: 25px;
+	
+
+}
+
+.partenaire-zone li{
+	display: inline-block;
+	margin: 0 50px 0 30px; 
+	padding-top: 60px;
+	margin-top: 100px;
+}
+
+.partenaire-item1{
+	width: 150px;
+	height: 30px;
+	background-image:url('swiss.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+
+}
+.partenaire-item2
+{
+	width: 170px;
+	height: 30px;
+	background-image:url('trip.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+}
+.partenaire-item3
+{
+	width: 150px;
+	height: 30px;
+	background-image:url('accor.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+}
+.partenaire-item4
+{
+	width: 200px;
+	height: 30px;
+	background-image:url('qatar.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+}
+
+/* CONTACT */
+
+#contact
+{
+	padding: 60px 0;
+	text-align: center;
+}
+
+#contact h3
+{
+	width: 400px;
+	text-transform: uppercase;
+	margin:0 auto 20px auto;
+	border-bottom: 1px solid #173984;
+	padding-bottom: 25px;
+
+}
+
+form
+{
+	margin: 60px 0 20px;
+}
+label
+{
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	color: #777;
+}
+input[type="text"]
+{
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 20px;
+	border: 2px #ddd;
+	border-radius: 3px;
+}
+.button-2
+{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 11px;
+	background-color: #02b8dd;
+	border-style: none;
+	border-radius: 3px;
+}
+.button-2:hover
+{
+	color: white;
+	background-color: #FF7A00;
+}
+
+/*FOOTER */
+
+footer
+{
+	height: 500px;
+	background-color: #0BE8FE;
+}
+footer h1
+{
+	color: #173984;
+	text-align: center;
+	padding-top: 60px;
+}
+.copyright
+{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 100px;
+	color: #777;
+}
+
